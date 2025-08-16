@@ -1,1 +1,1 @@
-# Basic-python-practice
+# ZERO TO HERO PYTHON PRACTICE SET 
