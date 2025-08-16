@@ -1,0 +1,77 @@
+light ="5"
+if (light == "red"):
+    print("stop")
+elif (light == "green"):
+      print("go")
+elif(light == "yellow"):
+    print("look")
+    
+else:
+    print("defoult")   
+    
+    
+    
+    age=int(input("enter age = "))
+       #nesting
+    if(age >=18):
+        if(age>=80):
+            print("connot drive")
+        else:
+         print("con drive")
+    else:
+        print("con't drive")
+    
+    
+    
+    
+    #grade studnet based on marks
+    
+    marks=int(input("enter marks : "))
+    if(marks >= 90):
+        grade="A"
+    elif(marks>=80 and marks < 90):
+        grade="B"
+    elif(marks >= 70 and marks < 80):
+        grade="C"
+    else:
+        grade="D"
+        
+        print("grade of the Student = ", grade )
+        
+        
+        
+        
+        # check if a number entered by the user is odd or even
+        
+        num=int(input("enter num :"))
+        if(num % 2 ==0):
+            print("this is a Even")
+        else:
+            print("this is a Odd")
+            
+            
+            
+    # fint the greatest number enter by the user.
+           
+            a=int(input("enter frist number: "))
+            b=int(input("enter second numnrt: "))
+            c=int(input("enter third numder: "))
+            d=int(input("enter fouth numder: "))
+            if(a>=b and a>=c):
+                print("frist number is largest",a)
+            elif(b>=c and c>=d):
+                print("second number is largest",b)
+                print("third number is largest",c)
+            else:
+                print("fouth number is largest",d)
+                
+                
+                
+       #check if number is multiple of 7 or not.
+                
+                
+            a=int(input("enter number: "))
+            if(a % 7==0):
+                print("multiple of 7")
+            else:
+                print("not a multiple")
